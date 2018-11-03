@@ -25,3 +25,8 @@ Also a link to the radar key scheme/starbucks public toilet kerfuffle?
 
 
 Maybe also a link to a 'manifesto'- why we believe spending a penny should be free. This is our about page.
+
+
+Update:
+Background image is of a tube map - maybe add a link to Citymapper (for if you want to plan a visit to the tube station toilets?!)
+
