@@ -1,18 +1,4 @@
-body {
-  background-image:
-  url("londonimage.jpg")
-}
-
 html {
- bbackground-image:
+ background-image:
  url("londonimage.jpg")
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
- background-color: white;
-}
-
-h1 {
-
 }
