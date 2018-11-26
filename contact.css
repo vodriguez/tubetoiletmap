@@ -1,0 +1,20 @@
+html {
+  background: url("Map of zone 1.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: lightgrey;
+}
+
+h1 {
+  font-style: normal;
+  font-size: 50px;
+  font-family: "Georgia", Georgia, serif;
+  color: yellow;
+  position: relative;
+  text-align: center;
+}
+
+
+<a href="https://commons.wikimedia.org/w/index.php?curid=6437025">Link</a>
