@@ -1,11 +1,5 @@
-html {
-  background: url("Map of zone 1.png") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: lightgrey;
-}
+
+
 h1 {
   font-style: normal;
   font-size: 50px;
