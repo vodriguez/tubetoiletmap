@@ -1,0 +1,46 @@
+header {
+  background: url("large.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 0px;
+}
+h1 {
+  font-style: normal;
+  font-size: 50px;
+  font-family: "Niramit", sans-serif;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  padding-top: 80px;
+}
+a {
+  color: #ffffff;
+  font-family: "Niramit", sans-serif;
+  text-decoration: none;
+}
+h2 {
+  font-style: normal;
+  font-family: "Niramit", sans-serif;
+}
+p {
+  font-style: normal;
+  font-family: "Niramit", sans-serif;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,.6);
+}
+li {
+  display: inline;
+  padding: 0px 65px 0px 65px;
+}
+
+h3 {
+  font-style: normal;
+  font-family: "Niramit", sans-serif;
+}
+#other {
+  background: rgba(0,0,0,.6)
+  font-family: "Niramit", sans-serif;
+  font-size: 20px;
+}
