@@ -1,29 +1,37 @@
-  header {
-    background: url("large.jpg");
-    background-size: cover;
-    background-position: center;
-    padding-top: 20px;
-  }
-  h1 {
-      padding-top: 80px;
-      text-align: center;
-      color: white;
-      font-style: normal;
-      font-size: 50px;
-      font-family: "Niramit", sans-serif;
-  }
-  a {
-    color: #ffffff;
-    font-family: "Niramit", sans-serif;
-    text-decoration: none;
-  }
-  h3 {
-    font-style: italic;
-  }
-  p {
-    font-size: 30px;
-  }
-
-
-
-  <a href="https://commons.wikimedia.org/w/index.php?curid=6437025">Link</a>
+header {
+  background: url("large.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 0px;
+}
+h1 {
+  font-style: normal;
+  font-size: 50px;
+  font-family: "Niramit", sans-serif;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  padding-top: 80px;
+}
+a {
+  color: #ffffff;
+  font-family: "Niramit", sans-serif;
+  text-decoration: none;
+}
+h3 {
+  font-style: italic;
+}
+p {
+  font-size: 30px;
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,.6);
+}
+li {
+  display: inline;
+  padding: 0px 65px 0px 65px;
+}
+#other {
+  background: rgba(0,0,0,.6)
+}
