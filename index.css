@@ -30,16 +30,22 @@ h1 {
 .btn-twitter {
   background: #00acee;
   border-color: #009ad5;
+  margin: 10px 10px 40px 10px;
 }
 .btn-facebook {
   background: #4868ac;
   border-color: #314776;
+  margin: 10px 10px 40px 10px;
 }
 .btn-pinterest {
   background: #b62f26;
   border-color: #b62f26;
+  margin: 10px 10px 40px 10px;
 }
 #social-buttons button {
   color: white;
   position: center;
+}
+.wrapper {
+  text-align: center;
 }
