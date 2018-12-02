@@ -1,43 +1,29 @@
-
-
-h1 {
-  font-style: normal;
-  font-size: 50px;
-  font-family: "Niramit", sans-serif;
-  color: #ffffff;
-  position: relative;
-  text-align: center;
-  padding-top: 80px;
-}
-.center {
-  background-color: lightgray;
-}
-header {
-  background: url("large.jpg");
+.jumbotron {
+  margin-bottom: 0px;
+  background: url("assets/banner.jpg");
+  height: 230px;
   background-size: cover;
   background-position: center;
-  padding-top: 0px;
+  max-width: 100%;
 }
-a {
-  color: #ffffff;
-  font-family: "Niramit", sans-serif;
-  text-decoration: none;
+.navbar-text {
+  padding-right: 50px;
+  font-size: 20px;
+  color: #428dd1;
 }
-ul {
-  padding: 10px;
-  background: rgba(0,0,0,.6);
+.collapse_target {
+  align: right;
 }
-li {
-  display: inline;
-  padding: 0px 65px 0px 65px;
-}
-
 h1 {
-color: #000000;
-font-size: 30px;
+  font-style: normal;
+  font-size: 30px;
+  font-family: "Niramit", sans-serif;
+  color: #2f434a;
+  position: relative;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .container {
-  margin: 70px 20px 20px 100px;
+  margin-bottom: 40px;
 }
-
-<a href="https://commons.wikimedia.org/w/index.php?curid=6437025">Link</a>
