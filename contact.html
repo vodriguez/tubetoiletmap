@@ -21,10 +21,10 @@
       <header>
       <h1> WELCOME TO THE THRONE ZONE </h1>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Submit A Toilet</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html">Submit A Toilet</a></li>
         <li><a href="javascript:alert('If you are American in the living room, what are you in the bathroom? European!');">Potty Humour</a></li>
       </ul>
     </header>
@@ -42,21 +42,22 @@
         <div class="col-sm-4">
         <img class="img-circle" alt="Serena" src='./assets/serena1.jpeg' width="240" height="240">
       <blockquote>
-        <p>My name is Serena. I'm a self-defined millennial who makes the 1+ hour commute into the City every day... and I am a big fan of easily accessible toilets!.</p>
+        <p>I'm a self-defined millennial who makes the 1+ hour commute into the City every day... and I am a big fan of easily accessible toilets!</p>
       </blockquote>
-        <small>Serena Kaur</small>
-      </div>
+        <small>Serena</small>
+        </div>
       <div class="col-sm-4">
         <img class="img-circle" alt="Maria-Elena" img src='./assets/mariaelena.png' width="240" height="240">
+
         <blockquote>
-          <p> I'm Maria-Elena.</p>
+          <p>After a few close calls and a journey length similar to Serena’s, a Toilet Tube Map is all I could’ve wished for.</p>
         </blockquote>
         <small>Maria-Elena</small>
       </div>
       <div class="col-sm-4">
         <img class="img-circle" alt="Allie" src='./assets/allie.jpeg' width="240" height="240">
         <blockquote>
-          <p>I strongly believe that nobody should have to pay to use the toilet!</p>
+          <p>I strongly believe that nobody should have to pay to use the toilet.</p>
           <small>Allie</small>
         </blockquote>
       </div>
@@ -65,19 +66,31 @@
 
 
 
-
+<div id="contact">
 <div class="container">
 
     <h1> Contact Us </h1>
-    <form>
+    <form id="contactForm">
       Email address:<br>
-      <input type="text" name="emailaddress"><br>
+      <input type="text" placeholder="Email address"><br>
       <input type="radio" name="reason" value="Submit a loo" checked> Submit a loo<br>
       <input type="radio" name"reason" value="Error"> I've spotted an error!<br>
-      Details regarding your submission<br>
-      <input type="text" name="details"><br>
+      <textarea rows="4" cols="50" placeholder="Details regarding your submission" name="details"></textarea>
+      <br>
       <input type="submit" value="Submit">
     </form>
+
+    <script>
+    document.getElementById("contactForm").onsubmit = function() {myFunction()};
+
+    function myFunction() {
+        alert("We got your submission, thanks!");
+    }
+    </script>
+
+
+  </div>
+  </div>
   </body>
 
 
