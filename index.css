@@ -6,6 +6,11 @@
   background-position: center;
   max-width: 100%;
 }
+.button {
+  border:none;
+   background-color:transperant;
+   outline:none;
+}
 .navbar-text {
   padding-right: 50px;
   font-size: 20px;
