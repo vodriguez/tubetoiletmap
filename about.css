@@ -27,14 +27,7 @@ p {
   font-style: normal;
   font-family: "Niramit", sans-serif;
 }
-ul {
-  padding: 10px;
-  background: rgba(0,0,0,.6);
-}
-li {
-  display: inline;
-  padding: 0px 65px 0px 65px;
-}
+
 
 .container {
     border: 2px solid #ccc;
