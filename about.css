@@ -1,3 +1,25 @@
+.jumbotron {
+  margin-bottom: 0px;
+  background: url("assets/banner.jpg");
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+}
+.button {
+  border:none;
+   background-color:transperant;
+   outline:none;
+}
+.navbar-text {
+  padding-right: 50px;
+  font-size: 20px;
+  color: #2f434a;
+}
+.collapse_target {
+  align: right;
+}
+
 header {
   background: url("large.jpg");
   background-size: cover;
@@ -75,4 +97,30 @@ h3 {
   background: rgba(0,0,0,.6)
   font-family: "Niramit", sans-serif;
   font-size: 20px;
+}
+
+.container {
+  margin-bottom: 60px;
+}
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+  margin: 10px 10px 40px 10px;
+}
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+  margin: 10px 10px 40px 10px;
+}
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
+  margin: 10px 10px 40px 10px;
+}
+#social-buttons button {
+  color: white;
+  position: center;
+}
+.wrapper {
+  text-align: center;
 }
