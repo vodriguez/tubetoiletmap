@@ -57,14 +57,8 @@ a {
   font-family: "Niramit", sans-serif;
   text-decoration: none;
 }
-ul {
-  padding: 10px;
-  background: rgba(0,0,0,.6);
-}
-li {
-  display: inline;
-  padding: 0px 65px 0px 65px;
-}
+
+
 
 img {
     border-radius: 50%;
