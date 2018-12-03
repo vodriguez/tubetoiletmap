@@ -1,7 +1,47 @@
-html {
-
-  background-color: lightgrey;
+.jumbotron {
+  margin-bottom: 0px;
+  background: url("assets/banner.jpg");
+  height: 230px;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
 }
+.navbar-text {
+  padding-right: 50px;
+  font-size: 20px;
+  color: #2f434a;
+}
+.collapse_target {
+  align: right;
+}
+
+.container {
+  margin-bottom: 60px;
+}
+.btn-twitter {
+  background: #00acee;
+  border-color: #009ad5;
+  margin: 10px 10px 40px 10px;
+}
+.btn-facebook {
+  background: #4868ac;
+  border-color: #314776;
+  margin: 10px 10px 40px 10px;
+}
+.btn-pinterest {
+  background: #b62f26;
+  border-color: #b62f26;
+  margin: 10px 10px 40px 10px;
+}
+#social-buttons button {
+  color: white;
+  position: center;
+}
+.wrapper {
+  text-align: center;
+}
+
+
 h1 {
   font-style: normal;
   font-size: 50px;
@@ -11,12 +51,7 @@ h1 {
   text-align: center;
   padding-top: 80px;
 }
-header {
-  background: url("large.jpg");
-  background-size: cover;
-  background-position: center;
-  padding-top: 0px;
-}
+
 a {
   color: #ffffff;
   font-family: "Niramit", sans-serif;
@@ -44,9 +79,3 @@ img {
   display: inline-block;
   font-size: 16px;
 }
-.form-submit-button {
-  border-radius: 8px;
-}
-
-
-<a href="https://commons.wikimedia.org/w/index.php?curid=6437025">Link</a>
