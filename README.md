@@ -42,7 +42,7 @@ live.html - A?
   
   
 Other 
-ME - creating assets (thank you)
+ME - creating images (thank you)
 S - asking developer friend to sense check 404
 A - sort out my bloody commits!!
 
